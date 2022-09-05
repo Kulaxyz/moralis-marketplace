@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6d5ed7c-37d9-4434-8118-faf622d54c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudFunctions/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/addresses.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frp/frpc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frp/frpc.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moralis-nft-marketplace.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sell-nft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/addEvents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NftItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/NFTAbi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/marketPlaceAbi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ethers-5.6.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +44,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kulaxyz/hh/moralis-nft-marketplace/frp",
+    "last_opened_file_path": "/Users/kulaxyz/hh/moralis-nft-marketplace/public",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/constants" />
       <recent name="$PROJECT_DIR$/frp" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -67,7 +65,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661692401804</updated>
-      <workItem from="1661692404892" duration="11932000" />
+      <workItem from="1661692404892" duration="12459000" />
+      <workItem from="1661959319175" duration="1000" />
+      <workItem from="1661960406525" duration="247000" />
+      <workItem from="1661961232546" duration="782000" />
+      <workItem from="1662297986705" duration="8232000" />
     </task>
     <servers />
   </component>
