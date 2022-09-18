@@ -11,13 +11,12 @@ export default function Home() {
     const [getItems, setItems]= useState();
 
     useEffect(()=>{
-            axios.get('http://127.0.0.1:3000/listings').then((resp)=>{
+            axios.get(process.env.NEXT_PUBLIC_BACKEND_URL + '/listings').then((resp)=>{
                 setItems(resp.data)
             })
         },
         [setItems]
     )
-
 
     return (
     <div className={styles.container}>

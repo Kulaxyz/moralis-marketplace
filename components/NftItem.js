@@ -2,9 +2,8 @@ import nftAbi from "../constants/NFTAbi.json"
 import marketplaceAbi from "../constants/marketPlaceAbi.json"
 import {useEffect, useState} from "react";
 import {Card} from "@web3uikit/core";
-import { ethers } from "ethers";
+import { ethers, BigNumber } from "ethers";
 import addresses from "../constants/addresses.json";
-import {BigNumber} from "../public/ethers-5.6.esm.min";
 
 export default function NftItem({ tokenId, price, nftAddress, seller, walletAddress }) {
     let isWeb3Enabled = true
